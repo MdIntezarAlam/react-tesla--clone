@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #393c41;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+/* description margin */
+.p {
+    margin-top: 10px;
+}
+
+/* all  header Top-bar a tag  */
+a {
+    text-decoration: none;
+
+}
+
+@keyframes animateDown {
+    0%, 20%, 50%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(5px);
+    }
+
+    60% {
+        transform: translateY(3px);
+    }
+}
+
+
+
