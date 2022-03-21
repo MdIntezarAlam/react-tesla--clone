@@ -11,11 +11,7 @@ const Header = () => {
       <a>
         <img src="/images/logo.svg" />
       </a>
-      <div style={{
-        fontWeight:'600',
-        color: '#ffff00	',
-        paddingLeft:'10px',
-      }}>Md Intezar Alam</div>
+      <h1 style={{margin:'10px', color:'green', fontWeight:'300', fontSize:'16px'}}>Intezar</h1>
       <Menu>
         <a href="#">Model S</a>
         <a href="#">Model 3</a>
@@ -86,7 +82,7 @@ display:flex;
 align-items:center;
 a{
   font-weight:600;
-  padding:0 10px;
+  padding:0 5px;
   margin-right: 10px;
 }
 `
@@ -100,7 +96,7 @@ top:0;
 right:0;
 bottom:0;
 background: white;
-width:300px;
+width:240px;
 z-index:16;
 list-style:none;
 // padding:28px;
