@@ -11,7 +11,6 @@ const Header = () => {
       <a>
         <img src="/images/logo.svg" />
       </a>
-      <h1 style={{margin:'10px', color:'green', fontWeight:'300', fontSize:'16px'}}>Intezar</h1>
       <Menu>
         <a href="#">Model S</a>
         <a href="#">Model 3</a>
